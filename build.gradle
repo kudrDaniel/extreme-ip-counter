@@ -1,0 +1,24 @@
+plugins {
+    id 'application'
+}
+
+group = 'ru.duckcoder'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+application {
+    mainClass = "ru.duckcoder.extreme.ip.counter.App"
+    applicationDefaultJvmArgs = ["-Xms1024m", "-Xmx8192m"]
+}
+
+test {
+    useJUnitPlatform()
+}
