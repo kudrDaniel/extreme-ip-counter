@@ -1,8 +1,7 @@
-package ru.duckcoder.extreme.ip.counter;
+package ru.duckcoder.extreme.ip.counter.utils;
 
-import ru.duckcoder.extreme.ip.counter.reader.FileProvider;
+import ru.duckcoder.extreme.ip.counter.io.FileProvider;
 
-import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.file.Path;
@@ -21,7 +20,7 @@ public class Generator {
                     i == count - 1 ? "" : "\n"
             ));
         }
-        fileProvider.closeOutput();
+        fileProvider.close();
         return count;
     }
 
@@ -47,7 +46,7 @@ public class Generator {
                 }
             }
         }
-        fileProvider.closeOutput();
+        fileProvider.close();
         return counter;
     }
 }

@@ -1,6 +1,4 @@
-package ru.duckcoder.extreme.ip.counter.reader;
-
-import ru.duckcoder.extreme.ip.counter.CounterController;
+package ru.duckcoder.extreme.ip.counter.io;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;

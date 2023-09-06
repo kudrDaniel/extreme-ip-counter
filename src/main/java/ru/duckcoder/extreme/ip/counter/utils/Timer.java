@@ -1,4 +1,4 @@
-package ru.duckcoder.extreme.ip.counter.util;
+package ru.duckcoder.extreme.ip.counter.utils;
 
 public class Timer {
     public static String timeToPattern(long time) {
@@ -12,7 +12,7 @@ public class Timer {
         time = time / 60;
         sections[1] = (int) (time % 60);
         sections[0] = (int) (time / 60);
-        return String.format("Time elapsed: %d h, %d m, %d s, %d ms%n",
+        return String.format("%d h, %d m, %d s, %d ms",
                 sections[0],
                 sections[1],
                 sections[2],

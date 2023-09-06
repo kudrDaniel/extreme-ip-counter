@@ -1,4 +1,4 @@
-package ru.duckcoder.extreme.ip.counter.reader;
+package ru.duckcoder.extreme.ip.counter.io;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
@@ -45,11 +45,12 @@ public class FileProvider {
         }
     }
 
-    public void closeOutput() {
-        try {
+    public void close() throws IOException {
+        if (this.bufferedInputStream != null) {
+            this.bufferedInputStream.close();
+        }
+        if (this.bufferedOutputStream != null) {
             this.bufferedOutputStream.close();
-        } catch (IOException closeException) {
-            System.out.println(closeException.getMessage());
         }
     }
 }

@@ -38,5 +38,7 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-### ips.txt ###
+### Other ###
 /**/ips.txt
+/**/result.txt
+/**/helper.txt
