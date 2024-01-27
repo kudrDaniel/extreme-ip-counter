@@ -39,6 +39,6 @@ bin/
 .DS_Store
 
 ### Other ###
-/**/ips.txt
+/**/ips_*.txt
 /**/result.txt
 /**/helper.txt
