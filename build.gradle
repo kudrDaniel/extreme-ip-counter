@@ -16,10 +16,10 @@ dependencies {
 
 application {
     mainClass = "ru.duckcoder.extreme.ip.counter.Application"
-    applicationDefaultJvmArgs = ["-Xms1024m", "-Xmx8192m"]
+    applicationDefaultJvmArgs = ["-Xms512m", "-Xmx512m"]
 }
 
 test {
     useJUnitPlatform()
-    jvmArgs = ["-Xms1024m", "-Xmx8192m"]
+    jvmArgs = ["-Xms512m", "-Xmx1024m"]
 }
