@@ -6,8 +6,8 @@ IP address counter - console program to counting unique ip-addresses in text fil
 |:-----------:|:-----------:|:--------------:|
 | In progress | ~20 min[^1] | 512-768 mb[^2] |
 
-[^1]: execution time on [test file](https://ecwid-vgv-storage.s3.eu-central-1.amazonaws.com/ip_addresses.zip) that unzipped size ~120 Gb
-[^2]: average ram consumption on any file
+[^1]: Execution time on [test file](https://ecwid-vgv-storage.s3.eu-central-1.amazonaws.com/ip_addresses.zip) that unzipped size ~120 Gb
+[^2]: Average ram consumption on any file
 
 ## :file_folder:How to use
 1. `git clone https://github.com/kudrDaniel/extreme-ip-counter.git`
