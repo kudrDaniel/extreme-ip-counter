@@ -16,7 +16,7 @@ dependencies {
 
 application {
     mainClass = "ru.duckcoder.extreme.ip.counter.Application"
-    applicationDefaultJvmArgs = ["-Xms512m", "-Xmx512m"]
+    applicationDefaultJvmArgs = ["-Xms512m", "-Xmx1024m"]
 }
 
 test {
