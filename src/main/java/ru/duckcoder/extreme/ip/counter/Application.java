@@ -1,11 +1,6 @@
 package ru.duckcoder.extreme.ip.counter;
 
-import java.io.BufferedOutputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 import java.util.Calendar;
-import java.util.Random;
 
 public final class Application {
     public static void main(String[] args) {
